@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+body{
+  background-image: url("C:\\Users\\Rog\\Downloads\\Weather-app\\Weather-app\\img\\pexels-brett-sayles-1431822.jpg");
+  background-size :cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(0deg, rgba(42, 78, 135,0.8) 0%, rgba(34,94,145,0.6) 100%);
+  color: white;
+  margin: 10px auto 0;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 35px;
+}
+
+.nav h1 {
+  font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    width: 100%;
+}
+.search input {
+    border: 0;
+    outline: 0;
+    flex: 1;
+    padding:10px;
+    border-radius: 20px;
+    background-color:white;
+    opacity: 0.5;
+    margin-right: 10px;
+    font-size: bolder;
+    margin-top: 20px;
+}
+
+.search button {
+    border-radius: 60%;
+    width: 40px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    margin-top: 20px;
+    opacity: 0.9;
+}
+
+.w-icon{
+  width: 170px;
+  margin-top: 20px;
+}
+
+.main h1{
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.main h2{
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: -15px;
+}
+
+.details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  align-self: center;
+  text-align: left;
+}
+
+.col img{
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+}
+
+#hum ,#wind ,.humi, .win{
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+
